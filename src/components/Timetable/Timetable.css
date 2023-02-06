@@ -202,7 +202,9 @@
 
   .timetable__line {
     transform: rotate(90deg);
-    width: 103px;
+    width: 115px;
+    justify-content: center;
+    align-items: center;
   }
 
     .timetable__line-start {

@@ -51,7 +51,7 @@
 .timer__bloks {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 7px;
   justify-content: space-between;
 }
 
@@ -60,6 +60,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 105px;
 }
 
 .timer__number {
@@ -95,7 +96,7 @@ background-color: #5b3f21;
 
 .timer__text {
   font-family: "Romul", "Arial", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 1700px) {
@@ -150,7 +151,7 @@ background-color: #5b3f21;
   }
 
   .timer__text {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .timer__number {
@@ -161,7 +162,11 @@ background-color: #5b3f21;
   }
 
   .timer__bloks {
-    gap: 15px;
+    gap: 7px;
+  }
+
+  .timer__block-info {
+    width: 90px;
   }
 }
 
@@ -191,7 +196,7 @@ background-color: #5b3f21;
   }
 
   .timer__bloks {
-    gap: 10px;
+    gap: 7px;
   }
 
   .timer__number {
@@ -201,6 +206,10 @@ background-color: #5b3f21;
   }
 
   .timer__text {
-    font-size: 12px;
+    font-size: 10px;
+  }
+
+  .timer__block-info {
+    width: 57px;
   }
 }
