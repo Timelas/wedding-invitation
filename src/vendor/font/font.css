@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Argentumsans";
+  src: url(argentumsans-thin.ttf) format('ttf'),
+       url(argentumsans-thin.woff) format('woff'),
+       url(argentumsans-thin.woff2) format('woff');
+       font-style: normal;
+       font-weight: 200;
+}
+
+@font-face {
+  font-family: "Wellstone";
+  src: url(Wellstone.ttf) format('ttf'),
+       url(Wellstone.woff) format('woff'),
+       url(Wellstone.woff2) format('woff2');
+       font-style: normal;
+       font-weight: 200;
+}
+
+@font-face {
+  font-family: "Caravan";
+  src: url(Caravan.ttf) format('ttf'),
+       url(Caravan.woff) format('woff'),
+       url(Caravan.woff2) format('woff2');
+       font-style: normal;
+       font-weight: 200;
+}
+
+@font-face {
+  font-family: "Romul";
+  src: url(ofont.ru_Romul.ttf) format('ttf'),
+       url(ofont.ru_Romul.woff) format('woff'),
+       url(ofont.ru_Romul.woff2) format('woff2');
+       font-style: normal;
+       font-weight: 200;
+}
+
