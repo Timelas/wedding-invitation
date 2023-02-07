@@ -6,19 +6,19 @@ function Questions() {
   const formRef = useRef(null)
   const scriptUrl = "https://script.google.com/macros/s/AKfycbwJxP4aDFSrU_RjHAlVO_ea08w8XqHFhTSF3eg90ANlk9eRo2gupGzYnmt5TKrBaN3H8Q/exec"
   const [loading, setLoading] = useState(false);
-  const [isFormVisible, setisFormVisible] = useState(false);
+  const [isFormVisible, setisFormVisible] = useState(true);
 
   const handleSubmit = (e) =>{
-    console.log(formRef.current)
-      e.preventDefault()
-      setLoading(true)
+      e.preventDefault();
+      setLoading(true);
 
       fetch(scriptUrl, {
       method: 'POST',
       body: new FormData(formRef.current),
 
   }).then(res => {
-          setLoading(false)
+          setLoading(false);
+          setisFormVisible(false);
       })
       .catch(err => console.log(err))
   }
