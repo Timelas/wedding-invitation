@@ -53,6 +53,7 @@
   cursor: pointer;
   transition: opacity .4s;
   margin: 0;
+  color: black;
 }
 
 .question__return:hover {
