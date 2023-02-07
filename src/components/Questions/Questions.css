@@ -6,6 +6,12 @@
   position: relative;
 }
 
+.question__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .question__header {
   display: flex;
   flex-direction: row;
