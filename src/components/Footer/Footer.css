@@ -20,6 +20,7 @@
   margin: 0;
   width: 450px;
   align-items: flex-start;
+  text-shadow: -.1px 0 black;
 }
 
 .footer__name {

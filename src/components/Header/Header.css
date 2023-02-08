@@ -46,6 +46,7 @@
   height: max-content;
   margin: 0 25px;
   align-self: flex-end;
+  font-size: 70px;
 }
 
 .header__image {
@@ -74,6 +75,7 @@
   line-height: 110pt;
   margin: 0;
   transform: translateX(-40px);
+  text-shadow: -.1px 0 black;
 }
 
 .header__info_date {

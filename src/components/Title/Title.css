@@ -20,11 +20,12 @@
 .title__title {
   font-family: "Caravan", "Arial", sans-serif;
   font-size: 120px;
-  font-weight: 200;
+  font-weight: normal;
   margin: 0;
   line-height: 0.8;
   align-self: flex-start;
   text-align: start;
+  text-shadow: -.1px 0 black;
 }
 
 .title__figure {
