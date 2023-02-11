@@ -23,7 +23,6 @@ function Menu(props) {
                 <span className="menu__span"></span>
                 <span className="menu__span"></span>
                 <span className="menu__span"></span>
-                <span className="menu__span"></span>
           </button>
         )
       }
