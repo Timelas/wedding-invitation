@@ -123,6 +123,10 @@
   font-weight: 200;
 }
 
+.rsvp__button:disabled {
+  opacity: .7;
+}
+
 .rsvp__figure {
   background-image: url(../../images/figure.svg);
   background-repeat: no-repeat;

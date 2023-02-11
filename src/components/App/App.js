@@ -18,17 +18,28 @@ function App() {
   const [isButtonVisible, setIsButtonVisible] = React.useState(true);
   const [isOpenBurger, setIsOpenBurger] = React.useState(false);
   const [isCloseBurger, setIsCloseBurger] = React.useState(true);
+  const [isChangeBurger, setIsChangeBurger] = React.useState(true);
 
+  function changeBurger() {
+    if (isChangeBurger) {
+      handleCloseBurger ();
+    } else {
+      handleOpenBurger ();
+    }
+  }
+  
   function handleOpenBurger () {
     setIsOpenBurger(true);
     setIsButtonVisible(false);
     setIsCloseBurger(false);
+    setIsChangeBurger(true);
   }
 
   function handleCloseBurger () {
     setIsOpenBurger(false);
     setIsButtonVisible(true);
     setIsCloseBurger(true);
+    setIsChangeBurger(false);
   }
 
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
@@ -46,8 +57,8 @@ function App() {
   return (
     <div className="App">
       <Menu
-        isButtonVisible={isButtonVisible}
-        onOpenBurger={handleOpenBurger} />
+        isChangeBurger={isChangeBurger}
+        onVisibleBurger={changeBurger} />
       <Header />
       <InfoDate />
       <Timetable />
@@ -56,14 +67,12 @@ function App() {
       <Countdown
         date={"2023-06-23T15:30:00+00:00"}
         renderer={renderer}/>
-      {/* <Counter
-      date={new Date('14 Jun 2023 16:24')} /> */}
       <Rsvp />
       <Questions />
       <Footer />
       <BurgerMenu
         isOpenBurger={isOpenBurger}
-        onCloseBurger={handleCloseBurger} />
+        onCloseBurger={changeBurger} />
     </div>
   );
 }

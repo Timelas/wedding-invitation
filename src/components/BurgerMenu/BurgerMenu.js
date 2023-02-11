@@ -15,7 +15,6 @@ function BurgerMenu(props) {
         <li className={`burger-menu__link burger-menu__link_${isOpenBurger && 'visible'}`} onClick={onCloseBurger}><a href="#rsvp" className="burger-menu__ancor">RSVP</a></li>
         <li className={`burger-menu__link burger-menu__link_${isOpenBurger && 'visible'}`} onClick={onCloseBurger}><a href="#questions" className="burger-menu__ancor">ОПРОС</a></li>
       </ul>
-      <button className="burger-menu__close" onClick={onCloseBurger}>Закрыть</button>
     </section>
   );
 }

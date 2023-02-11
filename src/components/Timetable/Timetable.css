@@ -63,14 +63,16 @@
 .timetable__line-start {
   grid-area: line-rings;
   object-fit: contain;
-  width: 76px;
+  width: 84px;
+  object-position: right;
   justify-self: flex-end;
 }
 
 .timetable__line-end {
   grid-area: line-car;
   object-fit: contain;
-  width: 76px;
+  width: 95px;
+  object-position: left;
   justify-self: flex-start;
 }
 
@@ -161,11 +163,13 @@
   }
 
   .timetable__line-start {
-    width: 50px;
+    height: 11.4px;
+    object-position: right;
   }
 
   .timetable__line-end {
-    width: 50px;
+    height: 11.4px;
+    object-position: left;
   }
 
   .timetable__text {

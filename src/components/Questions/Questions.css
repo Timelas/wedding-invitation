@@ -113,6 +113,10 @@
   font-weight: 200;
 }
 
+.question__button:disabled {
+  opacity: .7;
+}
+
 .question__unvisible {
   font-family: inherit;
   position: absolute;
