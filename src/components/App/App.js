@@ -18,7 +18,7 @@ function App() {
   const [isButtonVisible, setIsButtonVisible] = React.useState(true);
   const [isOpenBurger, setIsOpenBurger] = React.useState(false);
   const [isCloseBurger, setIsCloseBurger] = React.useState(true);
-  const [isChangeBurger, setIsChangeBurger] = React.useState(true);
+  const [isChangeBurger, setIsChangeBurger] = React.useState(false);
 
   function changeBurger() {
     if (isChangeBurger) {
