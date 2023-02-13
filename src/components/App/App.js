@@ -44,7 +44,7 @@ function App() {
 
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
-      return <span>You are good to go!</span>;
+      return <span>Этот день настал!</span>;
     } else {
       return <Timer
       days={days}

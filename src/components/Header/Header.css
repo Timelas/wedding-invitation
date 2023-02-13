@@ -38,7 +38,6 @@
 }
 
 .header__title {
-  font-family: "Romul", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 200;
   writing-mode:  vertical-rl;
@@ -79,7 +78,6 @@
 
 .header__info_date {
   margin-top: 180px;
-  font-family: "Romul", "Arial", sans-serif;
   font-size: 35px;
   line-height: 42pt;
 }

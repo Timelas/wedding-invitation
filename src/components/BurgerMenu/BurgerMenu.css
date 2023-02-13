@@ -54,20 +54,3 @@
   color: black;
   transition: color .4s;
 }
-
-/* .burger-menu__close {
-  background-color: inherit;
-  border: none;
-  padding: 0;
-  background-image: url(../../images/close.svg);
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  align-self: flex-end;
-  background-size: cover;
-  visibility: visible;
-}
-
-.burger-menu__close_visible {
-  visibility: visible;
-} */
